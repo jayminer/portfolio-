@@ -235,6 +235,9 @@ height:100%;
 	color: #3C5A76;
 	border-radius: 4px;
 	padding: 0px 2px;
+	-webkit-transition: all ease-in-out 0.2s;
+	-moz-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .tagline {

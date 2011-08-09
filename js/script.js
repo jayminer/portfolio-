@@ -1,4 +1,8 @@
 var app = $.sammy('#main', function() {
+	var colors = ['#F65B83','#9662ED','#E4D6CD','#C8111D','#D4584C','#B3BEF4','#DAA447','#4D4075','#38D899','#43795F','#33D924','#A207BB','#6578FE']
+	function randomColor() {
+		return colors[Math.floor(Math.random()*colors.length)]
+	}
 	this.swap = function(content) {
 		this.$element().hide(0).html(content).fadeIn(300);
 	}
@@ -7,6 +11,11 @@ var app = $.sammy('#main', function() {
 		$('#project-list').hide('slow');
 		var html = $('#me').html();
 		this.swap(html);
+		$('.highlight').mouseenter(function(){
+			$(this).css('background-color', randomColor() )
+		}).mouseleave(function(){
+			$(this).css('background-color', '#ddd')			
+		})
 	});
 	
 	this.get('#/contact', function(context) {
@@ -30,7 +39,7 @@ var app = $.sammy('#main', function() {
 		content = this.$element().find('.content');
 		var count=0
 		$('#data-hidden > .project').each(function(){
-			
+			count++;
 			var $this = $(this),
 			title = $this.attr('title');/*,
 			newCategories = $this.attr('category').split(' '),
@@ -55,12 +64,20 @@ var app = $.sammy('#main', function() {
 				'<div class="feature-image" style="background:url(\''+image+'\') no-repeat;"></div>' +
 				'</div></a>')
 		})
-		
+		var tt=1000;
+		var timeArray =[]
+		for (var i=0; i<=count;i++){
+			timeArray.push(tt*i/count)
+		}
 		$('.feature-container').each(function(){
-			var $this = $(this);
+			
+			var $this = $(this),
+			timeIn = Math.floor(Math.random()*timeArray.length),
+			time = timeArray.slice(timeIn,timeIn+1);
+			console.log(time);
 			setTimeout(function(){
 					$this.css('opacity','1');
-			},Math.random()*1000)
+			},time)
 		});
 		
 		
