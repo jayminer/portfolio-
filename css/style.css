@@ -54,6 +54,10 @@ p {
 	height:auto;
 }
 
+.main {
+	position:relative;
+}
+
 #name {
 	position: relative;
 	left: 11%;
@@ -252,8 +256,14 @@ height:100%;
    -webkit-box-shadow: 0 0 10px #000000;
    box-shadow: 0 0 10px #000000;
 }
-
-
+#contact-column-wrapper{
+	width:88%;
+	margin:auto;
+}
+.two-column{
+	width:50%;
+	float:left;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -261,4 +271,32 @@ height:100%;
 	content: " ";
 	clear: both;
 	height: 0;
-	}
+}
+
+.arrow{
+	position:absolute;
+}
+
+
+#coding-arrow {
+	width: 321px;
+	left: 670px;
+	top: 487px;
+}
+#sv-arrow {
+	width: 322px;
+	left: 97px;
+	top: 483px;
+}
+#project-arrow {
+	width: 322px;
+	left: 884px;
+	top: 134px;
+}
+#pick-arrow {
+	width: 622px;
+	left: 271px;
+	top: 409px;
+}
+
+
