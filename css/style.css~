@@ -249,7 +249,7 @@ height:100%;
 }
 
 .first-image {
-	margin: 10px 0px 0px 0px;
+	margin: 12px 0px 0px 0px;
 	width: 300px;
 	max-height: 500px;
 	border-radius:4px;

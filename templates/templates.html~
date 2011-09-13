@@ -50,11 +50,11 @@
 <div id="Musique" title="Musique" class="template-container project" category="mobile music">
 		<p class="">
 			<img class="first-image float-right" src="img/musique/mobile.png"/>
-			<p><span class="highlight">URL:</span> <a href="http://musique.herokuapp.com">musique.herokuapp.com</a></p>
-			<p><span class="highlight">Created:</span> Summer 2011</p>
-			<p><span class="highlight">Technology:</span> node.js, javascript, html5, css3</p>
-			<p><span class="highlight">Description:</span> Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.</p>
-			<p><span class="highlight">Additional Info:</span> Most of the code base was built in one night at Mozilla's World Series of Hack</p>
+			<p><span class="highlight">URL: </span><a href="http://musique.herokuapp.com">musique.herokuapp.com</a></p>
+			<p><span class="highlight">Created: </span>Summer 2011</p>
+			<p><span class="highlight">Technology: </span>node.js, javascript, html5, css3</p>
+			<p><span class="highlight">Description: </span>Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.</p>
+			<p><span class="highlight">Additional Info: </span>Most of the code base was built in one night at Mozilla's World Series of Hack</p>
 		</p>
 	
 </div>
