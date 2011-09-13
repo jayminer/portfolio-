@@ -96,6 +96,7 @@ var app = $.sammy('#main', function() {
 
 $(document).ready(function() {
 	$('#data-hidden').load('templates/templates.html', function () {
+				
 		$('#project-list').html('');
 		$('#data-hidden > .project').each(function(){
 			var title = $(this).attr('title');

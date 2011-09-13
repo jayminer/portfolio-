@@ -50,29 +50,56 @@
 <div id="Musique" title="Musique" class="template-container project" category="mobile music">
 		<p class="">
 			<img class="first-image float-right" src="img/musique/mobile.png"/>
-			<p><span class="highlight">URL: </span><a href="http://musique.herokuapp.com">musique.herokuapp.com</a></p>
-			<p><span class="highlight">Created: </span>Summer 2011</p>
-			<p><span class="highlight">Technology: </span>node.js, javascript, html5, css3</p>
-			<p><span class="highlight">Description: </span>Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.</p>
-			<p><span class="highlight">Additional Info: </span>Most of the code base was built in one night at Mozilla's World Series of Hack</p>
+			<p><span class="highlight">URL:</span> <a href="http://musique.herokuapp.com">musique.herokuapp.com</a></p>
+			<p><span class="highlight">Created:</span> Summer 2011</p>
+			<p><span class="highlight">Technology:</span> node.js, javascript, html5, css3</p>
+			<p><span class="highlight">Description:</span> Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.</p>
+			<p><span class="highlight">Additional Info:</span> Most of the code base was built in one night at Mozilla's World Series of Hack</p>
 		</p>
 	
 </div>
 
 <div id="Cntrlr" title="Cntrlr" class="template-container project" category="mobile">
-	<p class="tagline">Full control of your desktop browser with any mobile device</p>
-	<img class="first-image" src="img/cntrlr/touchpad-1.png"/>
-	<img class="" src="img/cntrlr/ios-1.png"/>
+	<p class="">
+			<img class="float-right first-image" src="img/cntrlr/ios-1.png"/>
+			<p><span class="highlight">URL:</span> <a href="http://cntrlr.herokuapp.com">cntrlr.herokuapp.com</a></p>
+			<p><span class="highlight">Created:</span> Summer 2011</p>
+			<p><span class="highlight">Technology:</span> node.js, javascript, html5, css3</p>
+			<p><span class="highlight">Description:</span> Cntrlr gives you  full control of you  desktop browser with any mobile device. After installing a browser extension or bookmarklet, users can connect any  device with a web browser (tablet, smartphone, another computer) and control the host browser. Cntrlr allows users to interially scroll a web page, fill in text inputs, change URL, and draw on screen -- all from a mobile device! </p>
+			<p><span class="highlight">Additional Info:</span> Made in one night during Linkedin's intern hackday. Made it to final round of top 15 projects. </p>
+			<img class="" src="img/cntrlr/touchpad-1.png"/>	
+	</p>
+	
+	
 </div>
 
 <div id="Groupon" title="Groupon" class="template-container project" category="mobile">
-	<p class="tagline">Mobile app</p>
-	<img class="first-image" src="img/groupon/screen.png"/>
+	<p class="">
+			<img class="first-image float-right" src="img/groupon/screen.png"/>
+			<p><span class="highlight">Created:</span> Summer 2010</p>
+			<p><span class="highlight">Technology:</span> webOS Mojo SDK, javascript, html5, css3</p>
+			<p><span class="highlight">Description:</span> Groupon is an app I made to feed the daily deal from Groupon to a webOS device. Using the system GPS, the app retrieve deals by location by utilizing the RESTful API provided by Groupon. In addition, it has a built-in timer to alert the user at a set time on a daily basis of a deal.</p>
+			<p><span class="highlight">Additional Info:</span> I plan to release this program for free in the official App Catalog and use Groupon’s affiliate program to generate revenues.</p>	
+	</p>
+	
 </div>
-
+<p class="">
+			<img class="first-image" src="img/groupon/screen.png"/>
+			<p><span class="highlight">Created:</span> Summer 2011</p>
+			<p><span class="highlight">Technology:</span> webOS Mojo SDK, javascript, html5, css3</p>
+			<p><span class="highlight">Description:</span>  </p>
+			<p><span class="highlight">Additional Info:</span> </p>	
+</p>
 <div id="ReviewNT" title="ReviewNT" class="template-container project" category="web">
-	<p class="tagline">Third-party,constructive reviews for teachers</p>
-	<img class="first-image" src="img/reviewnt/homepage.png"/>
+	<p class="">
+			<img class="first-image float-right" src="img/reviewnt/homepage.png"/>
+			<p><span class="highlight">URL:</span> <a href="http://reviewnt.org">http://reviewnt.org</a></p>
+			<p><span class="highlight">Created:</span> Fall/Winter 2010</p>
+			<p><span class="highlight">Technology:</span> javascript, PHP, MySQL, html5, css3</p>
+			<p><span class="highlight">Description:</span> ReviewNT was a site to provide third-party,constructive reviews for teachers </p>
+			<p><span class="highlight">Additional Info:</span> My district's superattendent and the teacher union president did not want this site to be released and they sucessfully blocked it from ever before released</p>	
+	</p>	
+
 </div>
 
 <div id="FrisbeeLauncher" title="Frisbee Launcher" class="template-container project" category="building">

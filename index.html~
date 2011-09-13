@@ -18,7 +18,7 @@
 			<li><a href="#/me">Me</a></li>
 			
 			<li><a href="#/projects">Projects</a>
-				<ul id="project-list" style="display: none">
+				<ul id="project-<br />list" style="display: none">
 					<li>Loading...<li>
 				</ul>
 			</li>
