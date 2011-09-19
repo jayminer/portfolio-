@@ -84,18 +84,19 @@ var app = $.sammy('#main', function() {
 	});
 	
 	this.get('#/projects/:title', function(context) {
-		var title = unescape(this.params['title']).replace(' ',"");
+		var title = unescape(this.params['title']).replace(/ /g,"");
+		console.log(title);
 		$('#project-list').show('slow');
 		html = '<div class="title">' + this.params['title'] + '</div>' + $('#' + title).html();
 		console.log(html);
 		this.swap(html);
+		$("a.grouped_pictures").fancybox()
 	});
 	
 	this.notFound('get','#/me');
 });
 
 $(document).ready(function() {
-	$("a.grouped_pictures").fancybox()
 	$('#data-hidden').load('templates/templates.html', function () {
 		$('#project-list').html('');
 		$('#data-hidden > .project').each(function(){
