@@ -95,8 +95,8 @@ var app = $.sammy('#main', function() {
 });
 
 $(document).ready(function() {
+	$("a.grouped_pictures").fancybox()
 	$('#data-hidden').load('templates/templates.html', function () {
-				
 		$('#project-list').html('');
 		$('#data-hidden > .project').each(function(){
 			var title = $(this).attr('title');
