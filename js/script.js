@@ -1,5 +1,6 @@
 var app = $.sammy('#main', function() {
-	var colors = ['#F65B83','#9662ED','#E4D6CD','#C8111D','#D4584C','#B3BEF4','#DAA447','#4D4075','#38D899','#43795F','#33D924','#A207BB','#6578FE']
+	var colors = ['#F65B83','#9662ED','#E4D6CD','#C8111D','#D4584C','#B3BEF4','#DAA447','#4D4075','#38D899','#43795F','#33D924','#A207BB','#6578FE'];
+	this.use('GoogleAnalytics');
 	function randomColor() {
 		return colors[Math.floor(Math.random()*colors.length)]
 	}
@@ -90,7 +91,7 @@ var app = $.sammy('#main', function() {
 		html = '<div class="title">' + this.params['title'] + '</div>' + $('#' + title).html();
 		console.log(html);
 		this.swap(html);
-		$("a.grouped_pictures").fancybox()
+		$("a.shotBox").fancybox()
 	});
 	
 	this.notFound('get','#/me');
